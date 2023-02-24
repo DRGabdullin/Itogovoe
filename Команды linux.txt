@@ -1,0 +1,35 @@
+denis@Denis:~$ cat > 'Домашние животные'
+Собаки
+Кошки
+Хомяки
+denis@Denis:~$ cat > 'Вьючные животные'
+Лошади
+Верблюды
+Ослы
+denis@Denis:~$ cat Домашние\ животные Вьючные\ животные > 'Животные'
+denis@Denis:~$ cat Животные
+Собаки
+Кошки
+Хомяки
+Лошади
+Верблюды
+Ослы
+denis@Denis:~$ mv Животные 'Друзья человека'
+denis@Denis:~$ mkdir directory
+denis@Denis:~$ mv Друзья\ человека directory/
+denis@Denis:~/Downloads$ wget https://dev.mysql.com/get/mysql-apt-config_0.8.24-1_all.deb
+denis@Denis:~/Downloads$ sudo dpkg -i mysql-apt-config_0.8.24-1_all.deb
+denis is not in the sudoers file.  This incident will be reported.
+denis@Denis:~/Downloads$ ls
+mysql-apt-config_0.8.24-1_all.deb
+denis@Denis:~$ su root
+Password:
+root@Denis:/home/denis# nano /etc/sudoers
+root@Denis:/home/denis#
+exit
+denis@Denis:~$ cd Downloads/
+denis@Denis:~/Downloads$ sudo dpkg -i mysql-apt-config_0.8.24-1_all.deb
+denis@Denis:~/Downloads$ cd
+denis@Denis: sudo apt install gimp
+denis@Denis: sudo apt remove gimp
+78  history
